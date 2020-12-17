@@ -1,0 +1,15 @@
+{
+  "name": "bot_correios",
+  "version": "1.0.0",
+  "description": "bot dos correios para o telegram",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fábio Vitor",
+  "license": "ISC",
+  "dependencies": {
+    "correios-brasil": "^2.1.0",
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
