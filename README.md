@@ -13,7 +13,11 @@ npm i node-telegram-bot-api
 npm install correios-brasil --save
 ```
 ___
-
+Crie um bot através do botFather e configure o comando /start;
+___
+#Token
+Insira o token do seu bot na linha 4 do index.js
+___
 
 Executando o projeto:
 ```
