@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const { rastrearEncomendas } = require('correios-brasil')
 
-const token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+const token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
 const bot = new TelegramBot(token, {polling: true});
 
@@ -10,13 +10,13 @@ bot.onText(/\/start/, (msg) => {
 		
 	});
 
-	
+
 bot.onText(/\/add (.+)/, (msg, match) => {
   
 	const chatId = msg.chat.id;
 	const resp = match[1]; // the captured "whatever"
 	let  codRastreio = [resp] // array de códigos de rastreios
-	let teste = '';
+	let msg_full = '';
 
 	bot.sendMessage(chatId, 'Pesquisando pelo código informado...');
 
@@ -53,13 +53,13 @@ bot.onText(/\/add (.+)/, (msg, match) => {
 			destino_api = '';
 			}
 
-			var msg_full = '\n'+data_api + hora_api + status_api + local_api + origem_api + destino_api + '\n';
-			teste = teste + msg_full
+			var msg_init = '\n'+data_api + hora_api + status_api + local_api + origem_api + destino_api + '\n';
+			msg_full = msg_full + msg_init
 			
 		  }
 
-		  console.log(teste)
-		  bot.sendMessage(chatId, teste);
+		  console.log(msg_full)
+		  bot.sendMessage(chatId, msg_full);
 	});
 	
 });
