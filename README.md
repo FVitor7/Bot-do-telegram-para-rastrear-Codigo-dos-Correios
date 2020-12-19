@@ -1,5 +1,5 @@
-# Telegram-Bot-NodeJS
-bot do telegram com NodeJS
+# Correios Telegram Bot-NodeJS
+bot do telegram para rastrear encomendas com NodeJS
 
 para instalar as dependencias através do NPM:
 
