@@ -1,11 +1,12 @@
-# Correios Telegram Bot-NodeJS
+
+# NodeJS-Bot Correios Telegram
 bot do telegram para rastrear encomendas com NodeJS
 
 para instalar as dependencias através do NPM:
 
-1° Node.js Telegram Bot API
+1° # telegraf.js
 ```
-npm i node-telegram-bot-api
+npm install telegraf
 ```
 
 2° Correios Brasil
@@ -16,7 +17,7 @@ ___
 Crie um bot através do botFather e configure o comando /start;
 ___
 #Token
-Especifique o token na variável de ambiente.
+Especifique o token na variável de ambiente: KEY_API.
 ___
 Executando o projeto:
 ```
@@ -29,9 +30,9 @@ Acesse a url: http://t.me/api_correios_bot
 ___
 Testando
 
-Adicione um código de rastreio com o comando: /add 
+Pesquisando por um código de rastreio com o comando: /search
 ```
-/add OL360725950BR
+/search OL360725950BR
 ```
 ___
-O bot irá retornar os dados do seu código
+O bot irá retornar os dados do seu código de rastreio
