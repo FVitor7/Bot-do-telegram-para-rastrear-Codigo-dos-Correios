@@ -1,7 +1,8 @@
 const TelegramBot = require('node-telegram-bot-api');
 const { rastrearEncomendas } = require('correios-brasil')
 
-const token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+//const token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+const token = process.env.KEY_API;
 
 const bot = new TelegramBot(token, {polling: true});
 
