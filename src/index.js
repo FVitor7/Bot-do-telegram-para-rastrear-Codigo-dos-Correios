@@ -1,7 +1,7 @@
 const { Telegraf } = require('telegraf')
 const { rastrearEncomendas } = require('correios-brasil')
 
-const bot = new Telegraf(process.env.KEY_API;)
+const bot = new Telegraf(process.env.KEY_API)
 
 bot.start((ctx) => ctx.reply('Olá' + ctx.chat.first_name + ' utilize da seguinte maneira:\n\n1 - Pesquisar código:\n\nExemplo: /search AB123456789BR'));
 
