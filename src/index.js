@@ -5,7 +5,7 @@ const expressApp = express()
 
 const port = process.env.PORT || 3000
 expressApp.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Bot criado por: Fábio Vitor!')
 })
 expressApp.listen(port, () => {
   console.log(`Listening on port ${port}`)
