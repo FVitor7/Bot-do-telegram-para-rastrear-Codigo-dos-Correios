@@ -9,7 +9,7 @@
   "author": "Fábio Vitor",
   "license": "ISC",
   "dependencies": {
-    "correios-brasil": "^2.1.0",
-    "node-telegram-bot-api": "^0.50.0"
+    "correios-brasil": "^2.1.1",
+    "telegraf": "^4.1.0"
   }
 }
