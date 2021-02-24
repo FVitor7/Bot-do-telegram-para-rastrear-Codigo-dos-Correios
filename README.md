@@ -33,5 +33,5 @@ Adicione um código de rastreio com o comando: /add
 ```
 /add OL360725950BR
 ```
-__
+___
 O bot irá retornar os dados do seu código
