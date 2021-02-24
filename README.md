@@ -14,21 +14,21 @@ npm install telegraf
 npm install correios-brasil --save
 ```
 ___
-Crie um bot através do botFather e configure o comando /start;
+# Crie um bot através do botFather e configure o comando /start;
 ___
-#Token
+# Token
 Especifique o token na variável de ambiente: KEY_API.
 ___
 Executando o projeto:
 ```
 node src/index.js
 ```
-#Acessando
+# Acessando
 ```
 Acesse a url: http://t.me/api_correios_bot
 ```
 ___
-Testando
+# Testando
 
 Pesquisando por um código de rastreio com o comando: /search
 ```
