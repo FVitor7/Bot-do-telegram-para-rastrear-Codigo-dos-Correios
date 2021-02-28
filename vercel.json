@@ -4,26 +4,9 @@
   },
   "builds": [
     {
-      "src": "app/build/index.js",
+      "src": "src/index.js",
       "use": "@vercel/node"
-    },
-    {
-      "src": "ui/build/**",
-      "use": "@vercel/static"
     }
   ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "app/build/index.js"
-    },
-    {
-      "src": "/",
-      "dest": "ui/build/index.html"
-    },
-    {
-      "src": "/(.+)",
-      "dest": "ui/build/$1"
-    }
-  ]
+  
 }
