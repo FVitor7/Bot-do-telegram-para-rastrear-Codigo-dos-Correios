@@ -2,9 +2,9 @@
   "name": "bot_telegram_correios",
   "version": "1.0.0",
   "description": "Bot do Telegram pra rastrear encomendas",
-  "main": "src/index.js",
+  "main": "apu/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node api/index.js"
   },
   "author": "Fabio Vitor",
   "license": "ISC",
