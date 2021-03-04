@@ -21,7 +21,7 @@ Especifique o token na variável de ambiente: KEY_API.
 ___
 Executando o projeto:
 ```
-node src/index.js
+node api/index.js
 ```
 # Acessando
 ```
