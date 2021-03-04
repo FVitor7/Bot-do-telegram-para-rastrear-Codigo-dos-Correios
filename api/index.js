@@ -81,4 +81,4 @@ const startBot = async () => {
 
 startBot()
 
-module.exports = app
+module.exports = expressApp
