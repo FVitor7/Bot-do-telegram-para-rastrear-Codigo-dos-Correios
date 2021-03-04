@@ -80,3 +80,5 @@ const startBot = async () => {
 }
 
 startBot()
+
+module.exports = app
