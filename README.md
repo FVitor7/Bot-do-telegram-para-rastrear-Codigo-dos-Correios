@@ -5,7 +5,7 @@ bot do telegram para rastrear encomendas com NodeJS
 
 > Preview do projeto online.
 
-![Alt Text](https://github.com/FVitor7/Django-LinkDev-Free/raw/master/preview.gif)
+![Alt Text](https://github.com/FVitor7/Bot-do-telegram-para-rastrear-Codigo-dos-Correios/raw/main/Preview.gif)
 
 
 para instalar as dependencias através do NPM:
